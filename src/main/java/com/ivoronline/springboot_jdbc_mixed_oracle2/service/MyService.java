@@ -16,7 +16,7 @@ public class MyService {
   //=========================================================================================================
   // MIXED STATEMENTS
   //=========================================================================================================
-  public int mixedStatements(String name1, Integer age1) throws SQLException {
+  public int mixedStatements(String name, Integer age) throws SQLException {
 
     //GET DB CONNECTION
     Connection connection = dataSource.getConnection();
